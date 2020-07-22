@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Ellis
   m_EditorClassIdentifier: 
   AvatarName: Ellis
-  AvatarSprint: {fileID: 21300000, guid: 540376212c913204dbff029b350f5c7d, type: 3}
+  AvatarSprite: {fileID: 21300000, guid: 540376212c913204dbff029b350f5c7d, type: 3}

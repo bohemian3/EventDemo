@@ -1186,7 +1186,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   avatarPrefab: {fileID: 944588294340234255, guid: 4775ea5c92ca8bb488351caa79fab38c,
     type: 3}
-  newImage: {fileID: 21300000, guid: 540376212c913204dbff029b350f5c7d, type: 3}
+  avatarDB: {fileID: 11400000, guid: 1150eac906bd43942bfcffaa6d384646, type: 2}
+  AvatarIndexToUse: 0
 --- !u!4 &1761681721
 Transform:
   m_ObjectHideFlags: 0

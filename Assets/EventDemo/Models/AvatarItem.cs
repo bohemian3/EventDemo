@@ -6,6 +6,6 @@ using UnityEngine;
 public class AvatarItem : ScriptableObject
 {
     public string AvatarName = "New Avatar";
-    public Sprite AvatarSprint;
+    public Sprite AvatarSprite;
 
 }
