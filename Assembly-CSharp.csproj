@@ -64,8 +64,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\EventDemo\ChatHistory.cs" />
+    <Compile Include="Assets\EventDemo\Models\AvatarDB.cs" />
+    <Compile Include="Assets\EventDemo\Models\AvatarItem.cs" />
     <Compile Include="Assets\EventDemo\UnityEventRaiseBehaviour.cs" />
     <Compile Include="Assets\EventDemo\UnityEventSubscribeBehaviour.cs" />
+    <Compile Include="Assets\EventDemo\objectManager.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/splan/source/repos/EventDemo/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

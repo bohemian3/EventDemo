@@ -16,7 +16,14 @@ public class UnityEventSubscribeBehaviour : MonoBehaviour
 
     private void Start()
     {
-        AvatarNameHeader.text = "<b>" +  Avatar.name + "</b>";
+        try
+        {
+            AvatarNameHeader.text = "<b>" + Avatar.name + "</b>";
+        }
+        catch (System.Exception)
+        {
+            // some components that use this will not have an avatar e.g. chat and will throw an error we can ignore
+        }
 
         if (dispatcher == null)
         {
