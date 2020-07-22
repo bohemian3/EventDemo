@@ -44,6 +44,10 @@ public class UnityEventSubscribeBehaviour : MonoBehaviour
         if (sender.name != Avatar.name)
         {
             displayMessage.text = sender.name + " says : " + argument ;
+            msgToSend.text = "";
+        } else
+        {
+            displayMessage.text = "";
         }
     }
 
